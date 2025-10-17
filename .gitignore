@@ -1,0 +1,22 @@
+# Dependencies
+vendor/
+
+# Environment specific files
+.env
+.env.local
+
+# Log files
+pages/logs/*.log
+pages/logs/*.txt
+pages/logs/cron_log.txt
+
+# Data files
+pages/data/products.db
+pages/data/cache/
+pages/data/generated_files/*.xlsx
+pages/data/generated_files/*.json
+pages/data/generated_files/index.html
+
+# OS generated files
+.DS_Store
+Thumbs.db
